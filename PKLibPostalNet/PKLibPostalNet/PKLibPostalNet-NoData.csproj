@@ -6,6 +6,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>PKLibPostalNet - .net bindings for libpostal packaged as nuget</Title>
+	  <Version>1.0.1</Version>
     <Authors>rkramer@pksoln.com</Authors>
     <Company>P/K Solutions Inc</Company>
     <Description>NLP Address Parser and expander - without data files</Description>
