@@ -2,9 +2,10 @@
 
 # Purpose
 
-This is a personal nuget package for LibPostalNet, including data files and support for both windows and linux.
+This is a personal nuget package for LibPostalNet, without data files
+It supports both windows and linux.
 
-If you want to build your own, you will need to download the data files from:
+You will need to download the data files from:
 
 https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz and decompress them into c:\libpostal
 

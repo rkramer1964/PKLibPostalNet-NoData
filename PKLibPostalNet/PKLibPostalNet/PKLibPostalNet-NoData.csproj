@@ -5,13 +5,13 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Title>PKLibPostalNet - .net bindings for libpostal packaged as nuget with data</Title>
+    <Title>PKLibPostalNet - .net bindings for libpostal packaged as nuget</Title>
     <Authors>rkramer@pksoln.com</Authors>
     <Company>P/K Solutions Inc</Company>
-    <Description>NLP Address Parser and expander - datafiles included</Description>
+    <Description>NLP Address Parser and expander - without data files</Description>
     <Copyright>Copyright P/K Solutions Inc, 2022</Copyright>
     <PackageReleaseNotes>This is a personal package, if it is of use to you, all the better.
-It provides the LibPostalNet bindings packaged into nuget with data files.
+It provides the LibPostalNet bindings packaged into nuget.
 
 Data files are downloaded from:
 https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz
