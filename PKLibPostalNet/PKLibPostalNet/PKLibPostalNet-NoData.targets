@@ -1,0 +1,10 @@
+﻿<Project>
+	<ItemGroup>
+		<WindowsNativeFiles Include="$(MSBuildThisFileDirectory)\..\contentFiles\windows\libpostal-1.dll" />
+		<LinuxNativeFiles Include="$(MSBuildThisFileDirectory)\..\contentFiles\linux_x86_64\libpostal-1.so" />
+	</ItemGroup>
+	<Target Name="PrepLibPostal" BeforeTargets="Build">
+		<Copy SourceFiles="@(WindowsNativeFiles)" DestinationFolder="$(TargetDir)" Condition="'$(OS)' == 'Windows_NT'"/>
+		<Copy SourceFiles="@(LinuxNativeFiles)" DestinationFolder="$(TargetDir)" Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'"/>
+	</Target>
+</Project>
