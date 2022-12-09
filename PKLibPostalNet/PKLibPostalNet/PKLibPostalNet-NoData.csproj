@@ -6,7 +6,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>PKLibPostalNet - .net bindings for libpostal packaged as nuget</Title>
-	  <Version>1.0.1</Version>
+	  <Version>1.0.3</Version>
     <Authors>rkramer@pksoln.com</Authors>
     <Company>P/K Solutions Inc</Company>
     <Description>NLP Address Parser and expander - without data files</Description>
@@ -14,8 +14,6 @@
     <PackageReleaseNotes>This is a personal package, if it is of use to you, all the better.
 It provides the LibPostalNet bindings packaged into nuget.
 
-Data files are downloaded from:
-https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz
 </PackageReleaseNotes>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -41,7 +39,7 @@ https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz
   <ItemGroup>
 	  <Content Include="README.md" PackagePath="\" />
 	  <Content Include="libpostal.h" />
-	  <Content Include="PKLibPostalNet-NoData.targets" PackagePath="build\PKLibPostalNet.targets" />
+	  <Content Include="PKLibPostalNet-NoData.targets" PackagePath="build\PKLibPostalNet-NoData.targets" />
 	  <Content Include="libpostal-1.dll" PackagePath="contentFiles\windows\libpostal-1.dll" />
 	  <Content Include="libpostal-1.so" PackagePath="contentFiles\linux_x86_64\libpostal-1.dll" />
   </ItemGroup>

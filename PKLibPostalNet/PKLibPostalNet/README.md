@@ -6,7 +6,7 @@ This is a personal nuget package for LibPostalNet, without data files.  It suppo
 
 You will need to download the data files from:
 
-https://github.com/openvenues/libpostal/releases/download/v1.0.0/parser.tar.gz and decompress them into a folder of your choice
+https://github.com/rkramer1964/PKLibPostalNetData/releases/download/1.0.0/libpostal.zip and decompress them into a folder of your choice
 
 Windows users should be able to use 7-zip for this.
 
