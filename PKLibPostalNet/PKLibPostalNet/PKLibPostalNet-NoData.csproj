@@ -6,7 +6,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>PKLibPostalNet - .net bindings for libpostal packaged as nuget</Title>
-	  <Version>1.0.3</Version>
+	  <Version>1.0.4</Version>
     <Authors>rkramer@pksoln.com</Authors>
     <Company>P/K Solutions Inc</Company>
     <Description>NLP Address Parser and expander - without data files</Description>
@@ -17,8 +17,8 @@ It provides the LibPostalNet bindings packaged into nuget.
 </PackageReleaseNotes>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageProjectUrl>https://github.com/rkramer1964/PKLibPostalNet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/rkramer1964/PKLibPostalNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/rkramer1964/PKLibPostalNet-NoData</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rkramer1964/PKLibPostalNet-NoData</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <OutputPath>bin\x64\Debug\</OutputPath>
